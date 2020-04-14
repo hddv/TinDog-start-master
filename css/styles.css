@@ -32,7 +32,7 @@ body{
 
 .nav-link{
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .navbar-brand{
@@ -60,12 +60,12 @@ body{
 
 /* Features section  */
 
-#features i{
-  font-size: 50px;
+#features .feature-icon{
   color: #EF8172;
+  margin-bottom: 4%;
 }
 
-#features i:hover{
+#features .feature-icon:hover{
   color: #ff4C68;
 }
 
@@ -73,7 +73,7 @@ body{
   /* font-family: 'Montserrat', sans-serif; */
   font-size: 1.5rem;
   font-weight: 900;
-  padding-top: 5%;
+  
 }
 
 #features p{
@@ -81,5 +81,5 @@ body{
 }
 
 #features{
-  padding: 100px;
+  padding: 7% 10%;
 }
