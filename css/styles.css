@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu&display=swap'); 
 
 body{
   font-family:'Montserrat', sans-serif;
@@ -12,11 +12,18 @@ body{
   padding: 3% 15%;
 }
 
-#slogan{
-  font-family: 'Montserrat';
+h1{
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   color: white;
   font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -82,4 +89,45 @@ body{
 
 #features{
   padding: 7% 10%;
+}
+
+
+
+
+/* Testimonials section  */
+
+
+#testimonials{
+  /* padding: 7% 10%; */
+  text-align: center;
+  background-color: #EF8172;
+  color: #fff;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  width: 12%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 10%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  width: 20%;
+  height: 20%;
+}
+
+/* Press section  */
+
+#press{
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 0 20px;
 }
