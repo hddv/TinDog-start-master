@@ -27,6 +27,13 @@ h2{
   line-height: 1.5;
 }
 
+h3{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 1.5rem;
+  font-weight: 900;
+  
+}
+
 /* Navigation Bar  */
 
 .navbar{
@@ -76,12 +83,7 @@ h2{
   color: #ff4C68;
 }
 
-#features h3{
-  /* font-family: 'Montserrat', sans-serif; */
-  font-size: 1.5rem;
-  font-weight: 900;
-  
-}
+
 
 #features p{
   color: #8F8F8F;
@@ -130,4 +132,17 @@ h2{
 .press-logo{
   width: 15%;
   margin: 0 20px;
+}
+
+
+
+/* Pricing Section  */
+
+#pricing{
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
 }
