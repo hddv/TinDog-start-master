@@ -172,9 +172,10 @@ h3{
 #footer{
   background-color: #fff;
   text-align: center;
+  padding: 7% 15%;
 }
 
-#footer i{
+#footer .social-icon{
   margin: 0 2%;
 }
 
