@@ -14,9 +14,26 @@ p{
   color: #8f8f8f;
 }
 
+/* container */
+
 .container-fluid{
   padding: 5% 12%;
 }
+
+
+/* COLOR SECTION */
+
+.colored-section{
+  background-color: #ff4C68;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* TITLE*/
 
 .big-title{
   font-family: 'Montserrat', sans-serif;
@@ -56,15 +73,12 @@ p{
 
 
 /* Title section  */
-
-#title{
-  background-color: #ff4C68;
+#title .container-fluid{
+  padding: 2% 12% 5%;
   text-align: left;
 }
 
-#title .container-fluid{
-  padding: 2% 12% 5%;
-}
+
 
 /* Presentation section  */
 
@@ -74,6 +88,7 @@ p{
 
 .title-img{
   width: 60%;
+  max-width: 300px;
   transform: rotate(20deg);
   position: absolute;
   right: 30%;
@@ -81,6 +96,10 @@ p{
 
 
 /* Features section  */
+
+#features{
+  position: relative;
+}
 
 .feature-title{
   font-size: 1.8rem;
@@ -96,10 +115,7 @@ p{
   color: #ff4C68;
 }
 
-#features{
-  background-color: #fff;
-  position: relative;
-}
+
 
 
 
@@ -108,9 +124,7 @@ p{
 
 
 #testimonials{
-  
   background-color: #EF8172;
-  color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -123,12 +137,8 @@ p{
 .testimonial-img{
   border-radius: 100%;
   width: 12%;
+  min-width: 100px;
   margin: 20px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
-  width: 20%;
-  height: 20%;
 }
 
 /* Press section  */
@@ -140,6 +150,7 @@ p{
 
 .press-logo{
   width: 15%;
+  min-width: 150px;
   margin: 0 20px;
 }
 
@@ -162,24 +173,9 @@ p{
 }
 
 
-
 /* CTA Section  */
 
-#cta{
-  background-color: #ff4c68;
-}
-
-#cta .section-title{
-  color: #fff;
-}
-
-
-
 /* Footer section  */
-
-#footer{
-  background-color: #fff;
-}
 
 #footer .social-icon{
   margin: 0 2%;
@@ -190,13 +186,53 @@ p{
 
 /* MEDIA QUERIES  */
 
-@media (max-width: 990px){
+@media (max-width: 1024px){
   .title-img{
     position: static;
     transform: rotate(0deg);
+    max-width: 200px;
   }
 
-  #title{
+  #title .container-fluid{
     text-align: center;
+  }
+}
+
+
+@media (max-width: 768px){
+  .big-title{
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  }
+
+  .navbar{
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .section-title{
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .feature-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .testimonial-text{
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  .pricing-card{
+    font-size: 2rem;
+    line-height: 1;
   }
 }
