@@ -236,6 +236,19 @@ p{
     line-height: 1;
   }
 
+}
+
+
+@media (max-width: 376px){
+
+  h2.testimonial-text{
+    font-size: 1.7rem;
+  }
+
+  #testimonials em{
+    display: inline-block;
+  }
+
   #footer .social-icon{
     margin: 0 2%;
     font-size: 2rem;
