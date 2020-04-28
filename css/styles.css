@@ -179,7 +179,7 @@ p{
 
 #footer .social-icon{
   margin: 0 2%;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 
@@ -234,5 +234,10 @@ p{
   .pricing-card{
     font-size: 2rem;
     line-height: 1;
+  }
+
+  #footer .social-icon{
+    margin: 0 2%;
+    font-size: 2rem;
   }
 }
