@@ -1,7 +1,7 @@
 GO there to see my TinDog App -> https://hddv.github.io/TinDog-start-master/
 
 Desktop:
-![alt main](./images/main.png)
+<img src="./images/main.png" max-width="500">
 
 
 Mobile:
