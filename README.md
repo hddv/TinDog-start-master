@@ -1,9 +1,9 @@
 GO there to see my TinDog App -> https://hddv.github.io/TinDog-start-master/
 
 <strong>Desktop:</strong><br>
-<img src="./images/main.png" width="800">
+<img src="./images/main.png" width="900">
 
 
 <strong>Mobile:</strong><br>
-<img src="./images/main2.png" width="400">
+<img src="./images/main2.png" width="300">
 
