@@ -5,4 +5,5 @@ Desktop:
 
 
 Mobile:
+<img src="./images/main2.png" width="100">
 ![alt mainMobile](./images/main2.png | width=100)
