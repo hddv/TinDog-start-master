@@ -5,4 +5,4 @@ Desktop:
 
 
 Mobile:
-![alt mainMobile](./images/main2.png)
+![alt mainMobile](./images/main2.png | width=100)
